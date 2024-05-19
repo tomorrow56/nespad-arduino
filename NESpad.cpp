@@ -39,14 +39,18 @@
 // }
 
 NESpad::NESpad(int strobe, int clock, int data)
-  : m_strobe (strobe),
-  m_clock (clock),
-  m_data (data)
-  {
-    pinMode(strobe, OUTPUT);
-    pinMode(clock,  OUTPUT);
-    pinMode(data, INPUT_PULLUP);
-  }
+  : m_strobe (strobe), m_clock (clock), m_data (data)
+{
+
+}
+
+void NESpad::begin()
+{
+  pinMode(m_strobe, OUTPUT);
+  pinMode(m_clock,  OUTPUT);
+  pinMode(m_data, INPUT_PULLUP);
+}
+
 
 byte NESpad::buttons(void)
 {

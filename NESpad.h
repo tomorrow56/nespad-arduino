@@ -41,6 +41,7 @@ class NESpad {
   public:
     NESpad();
     NESpad(int strobe, int clock, int data);
+    void begin();
     uint8_t buttons();
 
   private:
