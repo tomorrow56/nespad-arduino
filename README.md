@@ -1,11 +1,11 @@
-nespad-arduino
+nespad-arduino mod
 ==============
 
-NESPad Arduino Library
+NESPad Arduino Library (modified by tomorrow56)
 
 This is a fork of the NESPad library from 
 
-http://code.google.com/p/nespad/
+https://github.com/joshmarinacci/nespad-arduino
 
-I have merely patched it to compile properly under the 1.0 Arduino IDE
+I have modified to use the m5unified library and add examples for M5Atom.
 
