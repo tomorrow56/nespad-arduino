@@ -1,4 +1,4 @@
-nespad-arduino mod
+nespad-arduino for M5Unified
 ==============
 
 NESPad Arduino Library (modified by tomorrow56)
